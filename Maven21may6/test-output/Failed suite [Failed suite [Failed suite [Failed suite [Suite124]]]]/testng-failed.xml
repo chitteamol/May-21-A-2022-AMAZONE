@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite124]]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="FireFox(failed)(failed)(failed)(failed)(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="tempTestPack.TestSciencePage">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="cleanPOMOObject"/>
+          <include name="openAmazoneScienceAndReasearchAreaPage"/>
+          <include name="verifyDmodelingButton"/>
+          <include name="closedBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="logOutFromApp"/>
+          <include name="verifyAmazonRekognitionButton"/>
+        </methods>
+      </class> <!-- tempTestPack.TestSciencePage -->
+      <class name="tempTestPack.OpenAbeBookANdCheckBottons">
+        <methods>
+          <include name="verifyAdvancedSearchButton"/>
+          <include name="launchBrowser"/>
+          <include name="openShopArtBooksCollection"/>
+          <include name="verifyRareBooksButton"/>
+          <include name="closedBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="logOutFromApp"/>
+          <include name="cleanPOMObject"/>
+        </methods>
+      </class> <!-- tempTestPack.OpenAbeBookANdCheckBottons -->
+    </classes>
+  </test> <!-- FireFox(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite124]]]]] -->
